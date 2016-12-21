@@ -10,9 +10,9 @@
 
 <script>
 
-import EmailList from './emails/email-list.vue'
-import EmailDetail from './emails/email-details.vue'
-import EmailStatus from './emails/email-status.vue'
+import EmailList from './emails-components/email-list.vue'
+import EmailDetail from './emails-components/email-details.vue'
+import EmailStatus from './emails-components/email-status.vue'
 
 export default {
     data() {

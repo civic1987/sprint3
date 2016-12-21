@@ -2,11 +2,11 @@ import style from './style.scss';
 import Vue from 'vue'
 import VueRouter from 'vue-router';
 
-import Home from './components/home/home-app';
-import Events from './components/events/events-center';
-import Places from './components/places/places-center';
-import Emails from './components/emails/emails-center';
-import MainNav from './components/main-nav/main-nav';
+import Home from './App/pages/home/home-app';
+import Events from './App/pages/events/events-center';
+import Places from './App/pages/places/places-center';
+import Emails from './App/pages/emails/emails-center';
+import MainNav from './App/main-nav/main-nav';
 
 Vue.use(VueRouter);
 
