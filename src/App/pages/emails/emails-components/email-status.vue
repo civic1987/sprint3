@@ -1,6 +1,6 @@
 <template>
 <section>
-        <h1>Email Status</h1>
+        <h2>Email Status</h2>
             <div>     
           {{numberOfReadEmails}} {{numberOfEmails}}
             </div>
@@ -28,3 +28,10 @@
 
 
 </script>
+
+
+<style scoped> 
+    h2 {
+        color: orange;
+    }
+</style>

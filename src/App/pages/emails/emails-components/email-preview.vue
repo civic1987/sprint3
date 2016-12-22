@@ -1,10 +1,12 @@
 <template>
     <section>
-        <button @click="showEmail">Pick Me</button> 
-        {{email.subject}} {{email.author}} {{email.isRead}}
-        <button @click="deleteEmail">Delete Me</button> 
+        <div class="show-email">
+            <button @click="showEmail">Pick Me</button> {{email.subject}} {{email.author}}
+        <button @click="deleteEmail">Delete Me</button>
+        </div>
+        <!--{{email.isRead}}-->
     </section>
-</template>      
+</template>
 
 <script>
      export default {
@@ -31,4 +33,21 @@
     }
 </script>
 
-<style></style>
+<style scoped>
+   
+    .show-email {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: left;
+
+    }
+    
+    button {
+        padding: 2px;
+        margin: 2px;
+    }
+    
+    section {
+        margin: 10px;
+    }
+</style>
